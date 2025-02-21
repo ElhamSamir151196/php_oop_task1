@@ -132,7 +132,7 @@
                     <p class="card-text"><?php echo $product1->getDescription()?></p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Basic Price:<?php echo $product1->getDescription()?></li>
+                    <li class="list-group-item">Basic Price:<?php echo $product1->getprice()?></li>
                     <li class="list-group-item">Price after Discount 10%: <?php echo $product1->priceAfterDiscount(10)?></li>
                     <li class="list-group-item">Final Price after add tax(<?php echo $product1->getTax()?>):<?php echo $product1->getFinalPrice()?></li>
                 </ul>
@@ -146,7 +146,7 @@
                     <p class="card-text"><?php echo $product2->getDescription()?></p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Basic Price:<?php echo $product2->getDescription()?></li>
+                    <li class="list-group-item">Basic Price:<?php echo $product2->getprice()?></li>
                     <li class="list-group-item">Price after Discount 10%: <?php echo $product2->priceAfterDiscount(10)?></li>
                     <li class="list-group-item">Final Price after add tax(<?php echo $product2->getTax()?>):<?php echo $product2->getFinalPrice()?></li>
                 </ul>
@@ -160,7 +160,7 @@
                     <p class="card-text"><?php echo $product3->getDescription()?></p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Basic Price:<?php echo $product3->getDescription()?></li>
+                    <li class="list-group-item">Basic Price:<?php echo $product3->getprice()?></li>
                     <li class="list-group-item">Price after Discount 10%: <?php echo $product3->priceAfterDiscount(10)?></li>
                     <li class="list-group-item">Final Price after add tax(<?php echo $product3->getTax()?>):<?php echo $product3->getFinalPrice()?></li>
                 </ul>
